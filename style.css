@@ -1,0 +1,218 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+#rolunkgomb{
+    display: inline;
+    position: absolute;
+    top: 100px;
+    left: 850px;
+}
+#tudnivalokgomb{
+    display: inline;
+    position: absolute;
+    top: 100px;
+    left: 950px;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    background-color: peachpuff;
+}
+#logo{
+    height: 153px;
+    width: 153px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+#banan1{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 170px;
+    left: 80px;
+}
+#banan3{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 170px;
+    left: 420px;
+}
+#banan100{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 170px;
+    left: 780px;
+}
+#banan1000{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 170px;
+    left: 1140px;
+}
+#olcsobanan{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 170px;
+    left: 1490px;
+}
+#fozobanan{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 650px;
+    left: 80px;
+}
+#vorosbanan{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 650px;
+    left: 420px;
+}
+#latundanbanan{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 650px;
+    left: 780px;
+}
+#banankenyer{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 650px;
+    left: 1140px;
+}
+#banangumicukor{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 650px;
+    left: 1490px;
+}
+#banan1gomb{
+    position: absolute;
+    top: 460px;
+    left: 180px;
+}
+#banan3gomb{
+    position: absolute;
+    top: 460px;
+    left: 530px;
+}
+#banan100gomb{
+    position: absolute;
+    top: 460px;
+    left: 880px;
+}
+#banan1000gomb{
+    position: absolute;
+    top: 460px;
+    left: 1230px;
+}
+#olcsobanangomb{
+    position: absolute;
+    top: 460px;
+    left: 1580px;
+}
+#fozobanangomb{
+    position: absolute;
+    top: 940px;
+    left: 170px;
+}
+#vorosbanangomb{
+    position: absolute;
+    top: 940px;
+    left: 520px;
+}
+#latundanbanangomb{
+    position: absolute;
+    top: 940px;
+    left: 870px;
+}
+#banankenyergomb{
+    position: absolute;
+    top: 940px;
+    left: 1220px;
+}
+#banangumicukorgomb{
+    position: absolute;
+    top: 940px;
+    left: 1570px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 1700px;
+    background-color: peachpuff;
+}  
+.cart-icon {
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}  
+#cart-count {
+    font-weight: bold;
+    color: red;
+}  
+.cart-hover {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    z-index: 1;
+}
+.cart-icon:hover .cart-hover {
+    display: block;
+}  
+.cart-hover ul {
+    list-style: none;
+    padding: 0;
+}  
+.cart-hover ul li {
+    margin-bottom: 5px;
+}  
+.shop, .cart {
+    margin-top: 30px;
+}  
+.products .product {
+    margin-bottom: 20px;
+}  
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}  
+.add-to-cart:hover {
+    background-color: #218838;
+}
+.cart-icon.active .cart-hover {
+    display: block;
+}
+.delete-item:hover {
+    background-color: darkred;
+}
+.delete-item {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}

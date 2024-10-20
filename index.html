@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banánia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Derékszögű banán.png">
+</head>
+<body>   
+    <h1>Üdvözöllek Banániában!</h1>
+    <button id="rolunkgomb">Cégünkről</button>
+    <button id="tudnivalokgomb">Tudnivalók</button>
+
+    <img src="Derékszögű banán.png" alt="Derékszögű banán" id="logo">
+    <img src="Banán1.jpg" alt="banán1" id="banan1">    
+    <img src="Banán3.png" alt="banán3" id="banan3">    
+    <img src="100 banán.png" alt="100 banán" id="banan100">    
+    <img src="1000 banán.png" alt="1000 banán" id="banan1000">   
+    <img src="Olcsó banán.png" alt="Olcsó banán" id="olcsobanan">   
+    <img src="főzőbanán.png" alt="főzőbanán" id="fozobanan">
+    <img src="vörösbanán.png" alt="vörösbanán" id="vorosbanan">
+    <img src="latundanbanán.png" alt="latundan banán" id="latundanbanan">
+    <img src="banánkenyér.png" alt="banán kenyér" id="banankenyer">
+    <img src="banánosgumicukor.png" alt="banános gumicukor" id="banangumicukor">
+
+    <header>
+        <div class="cart-icon">
+            🛒 <span id="cart-count">0</span> termék
+            <div class="cart-hover">
+                <ul id="cart-items-hover">
+                </ul>
+                <p>Összesen: <span id="hover-total-price">0</span> Ft</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="shop">
+        <div class="products">
+            <div id="banan1gomb" class="product">
+                <h2>1kg Banán</h2>
+                <p>Ár: 590 Ft</p>
+                <button class="add-to-cart" data-name="1 Banán" data-price="590">Kosárba</button>
+            </div>
+            <div id="banan3gomb" class="product">
+                <h2>3kg Banán</h2>
+                <p>Ár: 1790 Ft</p>
+                <button class="add-to-cart" data-name="3 Banán" data-price="1790">Kosárba</button>
+            </div>
+            <div id="banan100gomb" class="product">
+                <h2>100kg Banán</h2>
+                <p>Ár: 56990 Ft</p>
+                <button class="add-to-cart" data-name="100 Banán" data-price="56990">Kosárba</button>
+            </div>
+            <div id="banan1000gomb" class="product">
+                <h2>1000kg Banán</h2>
+                <p>Ár: 549990Ft</p>
+                <button class="add-to-cart" data-name="1000 Banán" data-price="549990">Kosárba</button>
+            </div>
+            <div id="olcsobanangomb" class="product">
+                <h2>1kg Olcsó Banán</h2>
+                <p>Ár: 1500 Ft</p>
+                <button class="add-to-cart" data-name="5 Olcsó Banán" data-price="1500">Kosárba</button>
+            </div>
+            <div id="fozobanangomb" class="product">
+                <h2>1kg FőzőBanán</h2>
+                <p>Ár: 1900 Ft</p>
+                <button class="add-to-cart" data-name="Főzőbanán" data-price="1900">Kosárba</button>
+            </div>
+            <div id="vorosbanangomb" class="product">
+                <h2>1kg Vörös Banán</h2>
+                <p>Ár: 5000 Ft</p>
+                <button class="add-to-cart" data-name="Vörösbanán" data-price="5000">Kosárba</button>
+            </div>
+            <div id="latundanbanangomb" class="product">
+                <h2>1kg Latundan Banán</h2>
+                <p>Ár: 590 Ft</p>
+                <button class="add-to-cart" data-name="Latundan banán" data-price="590">Kosárba</button>
+            </div>
+            <div id="banankenyergomb" class="product">
+                <h2>1kg Banán kenyér</h2>
+                <p>Ár: 590 Ft</p>
+                <button class="add-to-cart" data-name="Banán kenyér" data-price="590">Kosárba</button>
+            </div>
+            <div id="banangumicukorgomb" class="product">
+                <h2>300g Banános Gumicukor</h2>
+                <p>Ár: 590 Ft</p>
+                <button class="add-to-cart" data-name="Banános gumicukor" data-price="590">Kosárba</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
